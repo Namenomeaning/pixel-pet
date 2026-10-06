@@ -2,7 +2,7 @@
 
 A theme is one JSON object: the pet's sprite and everything else it changes. The `preview_theme` and `set_theme` tools take it as `theme`, `get_theme` returns it, and a theme file (`<name>.theme.json`) holds the same object. Only `sprite` is required. The mod draws whatever else it gets, repairs what it can, and returns notes on what it did (see [Notes](#notes)). Unknown fields are ignored.
 
-Two example pets ship with the plugin: [`assets/slime.json`](../../assets/slime.json) faces the viewer, and [`assets/duck.json`](../../assets/duck.json) faces left, beak first. Both set only the sprite fields. [`assets/alien.json`](../../assets/alien.json) sets every field in this file: props (including `think`), `miniSprite`, `lines`, `lineColors`, `hud`, and `scene`.
+Four example pets ship with the plugin: [`assets/slime.json`](../../assets/slime.json) faces the viewer, and [`assets/duck.json`](../../assets/duck.json) faces left, beak first. Both set only the sprite fields. [`assets/tuxedo.json`](../../assets/tuxedo.json) is a front-facing cat drawn at 16×12 on `scale` 0.9, with a `miniSprite`. [`assets/alien.json`](../../assets/alien.json) sets every field in this file: props (including `think`), `miniSprite`, `lines`, `lineColors`, `hud`, and `scene`.
 
 | Field | Required | What it is |
 | --- | --- | --- |

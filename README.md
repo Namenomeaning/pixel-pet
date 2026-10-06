@@ -151,6 +151,7 @@ plugins/pixel-pet/                the plugin: a Claude Code mod
   assets/slime.json               the default pet
   assets/duck.json                an example pet that faces to one side
   assets/alien.json               an example pet that uses every field
+  assets/tuxedo.json              a tuxedo cat, for cat owners
   skills/pixel-pet/               the skill that draws a pet with you, and the pet format
 tools/preview/build.mjs           writes the preview of a theme file
 tools/demo/record.mjs             records docs/images/demo.gif

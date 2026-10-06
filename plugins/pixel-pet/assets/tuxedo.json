@@ -1,0 +1,24 @@
+{
+  "name": "tuxedo",
+  "scale": 0.9,
+  "sprite": [
+    ".aa..........aa.",
+    "akia........aika",
+    "akkkaaaaaaaakkka",
+    "akkkkkkwwkkkkkka",
+    "akkkkkkwwkkkkkka",
+    "akkkkkwwwwkkkkka",
+    "asskwwwppwwwkssa",
+    "akkkwwwmmwwwkkka",
+    "asskwwwwwwwwkssa",
+    "akkkkwwwwwwkkkka",
+    "akkkkkwwwwkkkkka",
+    ".aaaaaaaaaaaaaa."
+  ],
+  "palette": { "a": "#12121a", "k": "#3a3a4c", "i": "#c27a8f", "w": "#f6f6f6", "s": "#b9bcc8", "p": "#f58fa8", "m": "#c27a8f" },
+  "outline": "a",
+  "eyes": [[3, 4], [11, 4]],
+  "eyeColor": "#c9e060",
+  "mini": { "top": "#f6f6f6", "body": "#3a3a4c", "edge": "#12121a" },
+  "miniSprite": [".a.a.", "akkka", "akwka", "awpwa", ".aaa."]
+}
